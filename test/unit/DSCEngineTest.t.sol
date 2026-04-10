@@ -14,11 +14,11 @@ contract DSCEngineTest is Test {
     DecentralizedStableCoin dsc;
     DSCEngine dsce;
     HelperConfig config;
-    
+
     address ethUsdPriceFeed;
     address btcUsdPriceFeed;
     address weth;
-    
+
     address public user = makeAddr("user");
     uint256 amountCollateral = 10 ether;
     uint256 amountToMint = 100 ether;
